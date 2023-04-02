@@ -1,0 +1,58 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/login_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STUDENT LOGIN"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/studentregno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Registration No"
+        android:textSize="18sp"
+        android:textColorHint="#090a48"
+        android:textColor="@color/black"
+        android:background="@drawable/edittext_border"
+        android:layout_marginBottom="20dp"
+        android:padding="16dp"
+        tools:ignore="Autofill,HardcodedText,TextFields,TouchTargetSizeCheck,VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="18sp"
+        android:textColorHint="#090a48"
+        android:textColor="@color/black"
+        android:background="@drawable/edittext_border"
+        android:padding="16dp"
+        tools:ignore="Autofill,HardcodedText,TouchTargetSizeCheck,VisualLintTextFieldSize" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Login"
+        android:padding="16dp"
+        android:textColor="@color/white"
+        tools:ignore="DuplicateSpeakableTextCheck,HardcodedText,VisualLintButtonSize" />
+</LinearLayout>
